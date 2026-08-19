@@ -1,0 +1,871 @@
+body{
+    background-color: #fff8f0;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wel{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.div1{
+    background-color: #dbc0a5;
+}
+
+td a {
+    color: rgb(195, 113, 5);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(15, 13, 8);
+}
+
+.banner {
+    width: 90%;
+    max-width: 1100px;
+    height: 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 40px #a04d16;
+}
+
+.menu-btn {
+    background-color: #d35400;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.reserve-btn {
+    background-color: #d35400;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.offer-btn{
+    background-color: #d35400;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Our Popular Food */
+
+.food-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.food-table th {
+    background-color: #d35400;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.food-table td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.food-table tr:hover {
+    background-color: #e1d9d3;
+}
+
+.food-table img {
+    width: 130px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* About Food Corner */
+.about-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgb(235, 206, 206);
+    border-radius: 15px;
+}
+
+.about-content {
+    width: 55%;
+    padding: 30px;
+    text-align: left;
+}
+
+.about-content h2 {
+    color: #d35400;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.promise-content {
+    width: 45%;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff0e6;
+    border-radius: 15px;
+}
+
+.promise-content h2 {
+    color: #d35400;
+}
+
+.promise-content p {
+    font-size: 17px;
+    margin: 15px;
+}
+
+/* A place for everyone */
+
+.place-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.place-card {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.place-card h2 {
+    font-size: 40px;
+    margin: 5px 0 15px;
+}
+
+.place-card b {
+    color: #d35400;
+    font-size: 20px;
+}
+
+.place-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.place-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px #ccc;
+}
+
+.con-btn {
+    background-color: #d35400;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Food corner last content */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer h2 {
+    color: #ff9800;
+    font-size: 28px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 12px;
+}
+
+.footer b {
+    color: #ff9800;
+}
+
+/* This is About page code */
+
+/* OUR story*/
+
+.story-table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.story-content {
+    width: 50%;
+    padding: 25px;
+    text-align: left;
+}
+
+.story-content h2 {
+    color: #ff6600;
+}
+
+.story-content p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.belief-content {
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff0e0;
+    border-radius: 15px;
+}
+
+.belief-content h2 {
+    color: #ff6600;
+}
+
+.belief-content p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Our mission & Vision */
+
+.mission-table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.mission,
+.vision {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.mission h2,
+.vision h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.mission p,
+.vision p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.mission:hover,
+.vision:hover {
+    background-color: #fff0e0;
+}
+
+/* Why choose food corner */
+
+.why-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.why-card {
+    width: 25%;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.why-card h3 {
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.why-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.why-card:hover {
+    background-color: #fff0e0;
+    transform: translateY(-7px);
+    box-shadow: 0 5px 15px #ccc;
+}
+
+/* Our Food */
+
+.our-food-table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.our-food-table th {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.our-food-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.our-food-table tr:hover {
+    background-color: #fff0e0;
+}
+
+/* Our Promise Section */
+
+.promise-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.promise-table td {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.promise-table h2 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.promise-table p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* This is Menu page code */
+
+/* Food Menu */
+
+.food-menu {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.food-menu th {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.food-menu td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.food-menu tr:hover {
+    background-color: #fff0e6;
+}
+
+.food-menu img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ff6600;
+}
+
+/* Drinks Menu */
+
+.drinks-menu {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.drinks-menu th {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.drinks-menu td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.drinks-menu tr:hover {
+    background-color: #fff0e6;
+}
+
+/* Enjoy Our Food Section */
+
+.enjoy-food {
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff3e6;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.enjoy-food h2 {
+    color: #ff6600;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.enjoy-food p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.enjoy-food a {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.enjoy-food a:hover {
+    background-color: #222;
+}
+
+/* This is A reservation Page Code */
+
+/* Reservation Form Table*/
+
+.reservation-table {
+    width: 45%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+.reservation-table th {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.reservation-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.reservation-table td:first-child {
+    font-weight: bold;
+    color: #333;
+    width: 45%;
+}
+
+/* Form Inputs */
+.reservation-table input[type="text"],
+.reservation-table input[type="number"],
+.reservation-table input[type="date"],
+.reservation-table input[type="time"],
+.reservation-table select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.reservation-table input:focus,
+.reservation-table select:focus {
+    outline: none;
+    border: 2px solid #ff6600;
+}
+
+/* Reservation Buttons */
+.reservation-table input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reservation-table input[type="reset"] {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.reservation-table input[type="submit"]:hover {
+    background-color: #222;
+}
+
+.reservation-table input[type="reset"]:hover {
+    background-color: #ff6600;
+}
+
+/* Reservation Information */
+.reservation-info-title {
+    color: #ff6600;
+    font-size: 26px;
+}
+
+.reservation-info-title + p {
+    font-size: 17px;
+    color: #555;
+}
+
+.reservation-info-title + p + p {
+    font-size: 17px;
+    color: #333;
+}
+
+/* THis is Gallery Page code */
+
+/* Gallery Table */
+
+.gallery-table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.gallery-table td {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.gallery-table td:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px #999;
+}
+
+.gallery-table img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.gallery-table b {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 17px;
+}
+
+/* Enjoy Food Section */
+.enjoy-title {
+    color: black;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.enjoy-title + p {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Gallery Buttons */
+
+.gallery-btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.gallery-btn:hover {
+    background-color: #dec4c4;
+}
+
+/* This is Offer page code */
+
+/* Offer Banner */
+
+.offer-banner {
+    width: 85%;
+    max-width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 40px #d35400;
+    margin-top: 20px;
+}
+
+/* Offer Cards */
+
+.offer-card {
+    width: 60%;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.offer-card h2 {
+    color: #ff6600;
+    font-size: 25px;
+}
+
+.offer-card p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.offer-card b {
+    color: #d35400;
+}
+
+/* Don't Miss It */
+
+.dont-miss {
+    color: black;
+    font-size: 40px;
+    margin: 20px;
+}
+
+/* Offer CTA */
+
+.offer-cta {
+    width: 60%;
+    margin: 35px auto;
+    padding: 30px;
+    background-color: #fff3e6;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+}
+
+.offer-cta h2 {
+    color: #ff6600;
+    font-size: 28px;
+}
+
+.offer-cta p {
+    font-size: 17px;
+    color: #555;
+}
+
+.offer-cta a {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offer-cta a:hover {
+    background-color: #222;
+}
+
+/* This is contact page Code */
+
+/* Contact Heading */
+
+.contact-title {
+    color: black;
+    font-size: 38px;
+    margin-top: 30px;
+}
+
+.contact-intro {
+    width: 65%;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contact Information */
+
+.contact-section-title {
+    color: black;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.contact-info {
+    width: 60%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.contact-info p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Contact Form */
+
+.contact-form {
+    width: 45%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 90%;
+    padding: 11px;
+    margin-top: 7px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #ff6600;
+}
+
+/* Contact Form Buttons */
+.contact-form input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form input[type="reset"] {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #222;
+}
+
+.contact-form input[type="reset"]:hover {
+    background-color: #ff6600;
+}
+
+/* Opening Hours */
+
+.hours-table {
+    width: 45%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.hours-table th {
+    background-color: #ff6600;
+    color: white;
+    padding: 14px;
+    font-size: 17px;
+}
+
+.hours-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+.hours-table tr:hover {
+    background-color: #fff3e6;
+}

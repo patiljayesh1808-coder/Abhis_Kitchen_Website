@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation - Abhis Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <center>
+        <table width="100%" cellpadding="10" class="div1">
+            <tr>
+                <td>
+                    <h2 style="color: #100f0e; ">🍴 Abhis Kitchen</h2>
+                </td>
+                <td align="right">
+
+                    <a href="FoodCorner.html">Home</a>
+                    &nbsp; | &nbsp;
+
+                    <a href="About.html">About</a>
+                    &nbsp; | &nbsp;
+
+                    <a href="Menu.html">Our Menu</a>
+                    &nbsp; | &nbsp;
+
+                    <a href="Reservation.html">Reservation</a>
+                    &nbsp; | &nbsp;
+
+                    <a href="Gallery.html">Gallery</a>
+                    &nbsp; | &nbsp;
+
+                    <a href="Offers.html">Offers</a>
+                    &nbsp; | &nbsp;
+
+                    <a href="Contact.html">Contact Us</a>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <center>
+        <h1>Table Reservation</h1>
+
+        <p>
+            Reserve your table at Abhis Kitchen and enjoy
+            delicious food with your family and friends.
+        </p>
+
+        <hr>
+
+        <h1>Reserve Your Table</h1>
+
+        <table class="reservation-table">
+        <thead>
+            <tr>
+                <th colspan="2">Confirm Your Reservation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <form>
+                <tr>
+                    <td>Customer Name:</td>
+                    <td><input type="text" name="customerName" placeholder="Enter name" required></td>
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="number" name="contactNumber" placeholder="Enter contact number" required></td>
+                </tr>
+                <tr>
+                    <td>Number of People:</td>
+                    <td><input type="number" name="numPeople" min="1" placeholder="Enter number of people" required></td>
+                </tr>
+                <tr>
+                    <td>Reservation Date:</td>
+                    <td><input type="date" name="reservationDate" placeholder="Select date" required></td>
+                </tr>
+                <tr>
+                    <td>Reservation Time:</td>
+                    <td><input type="time" name="reservationTime" placeholder="Select time" required></td>
+                </tr>
+                <tr>
+                    <td>Food Preference:</td>
+                    <td>
+                        <select name="foodPreference" placeholder="Select a food item" required>
+                            <option value="">Select a food item</option>
+                            <option value="Pizza">Pizza</option>
+                            <option value="Burger">Burger</option>
+                            <option value="Pasta">Pasta</option>
+                            <option value="Ice Cream">Ice Cream</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Submit Reservation">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+            </form>
+        </tbody>
+    </table>
+    <br>
+
+        <hr>
+        <h2 class="reservation-info-title">Reservation Information</h2>
+        <p>
+            Please provide the correct contact number so that
+            our team can confirm your reservation.
+        </p>
+        <p>
+            <b>Reservation Hours:</b> 10:00 AM - 10:00 PM
+        </p>
+    </center>
+    <br>
+    <br>
+
+</body>
+
+</html>
