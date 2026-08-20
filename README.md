@@ -30,7 +30,7 @@ The website provides information about the restaurant, food menu, special offers
 ```text
 Abhis Kitchen-Website/
 │
-├── AbhisKitchen.html
+├── index.html
 ├── About.html
 ├── Menu.html
 ├── Reservation.html
@@ -82,7 +82,7 @@ This project helped me improve my understanding of:
 
 1. Download or clone this repository.
 2. Open the project folder.
-3. Open `FoodCorner.html` in a web browser.
+3. Open `index.html` in a web browser.
 4. Use the navigation bar to explore the different pages.
 
 ## 👨‍💻 Author
